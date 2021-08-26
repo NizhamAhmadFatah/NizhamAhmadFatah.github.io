@@ -1,0 +1,25 @@
+{
+  "name": "Nizham.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "csspro": "NODE_ENV=production tailwindcss -i src/styles.css -o dist/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NizhamAhmadFatah/Nizham.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NizhamAhmadFatah/Nizham.github.io/issues"
+  },
+  "homepage": "https://github.com/NizhamAhmadFatah/Nizham.github.io#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.2",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
+  }
+}
